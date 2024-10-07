@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Div e Span</title>
+
+        <style type="text/css"> 
+
+            #topo
+            {
+                background: blueviolet;
+            }
+
+            #conteudo
+            {
+                background: pink;
+            }
+
+            .prod
+            {
+                background: grey;
+                margin: 10px;
+            }
+
+            #rodape
+            {
+                background: gold;
+            }
+
+            #assina
+            {
+                background: blue;
+            }
+        </style>
+
+    </head>
+    <body>
+    
+        <!-- "Span bloco unico... consegue mexer dentro de textos" "div container inteiro" -->
+
+        <div id="topo">
+            
+            <img src="imagens/logo.png" width="200">
+            <ul>
+                <li>Home/li>
+                <li>Produto</li>
+                <li>Contato</li>
+            </ul>
+
+        </div>
+
+        <div id="conteudo">
+
+            <div class="prod">
+                produto 1 
+            </div>
+            
+            <div class="prod">
+                produto 2 
+            </div>
+            
+            <div class="prod">
+                produto 3
+            </div>
+
+            <div class="prod">
+                produto 4
+            </div>
+
+        </div>
+
+        <div id="rodape">
+            todos direitos reservados - <span class="assina">Balta</span>
+        </div>
+
+        <span class="assina">
+            James
+        </span>
+
+        <span>
+            Reizão
+        </span>
+
+    </body>
+</html>
